@@ -1,0 +1,38 @@
+{
+  "name": "davidsongomes/webjump",
+  "description": "Webjump | Backend Test | Dashboard",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Davidson O. Gomes",
+      "email": "contato@agenciadgcode.com",
+      "homepage": "https://agenciadgcode.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php"
+    ]
+  },
+  "require": {
+    "php": "^7.3|^8.0",
+    "ext-pdo": "^7.3|^8.0",
+    "league/plates": "*",
+    "coffeecode/uploader": "*",
+    "coffeecode/cropper": "*",
+    "coffeecode/paginator": "*",
+    "coffeecode/router": "*",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "monolog/monolog": "*"
+  }
+}
